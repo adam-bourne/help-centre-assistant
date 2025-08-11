@@ -35,7 +35,7 @@ RETRIEVAL_TOP_N = 10
 
 # Reranking
 RERANKER_TOP_N = 3
-RERANKER_MODEL = "pinecone-rerank-v0"
+RERANKER_MODEL = "bge-reranker-v2-m3"
 
 # LLM
 ASSISTANT_MODEL = "gpt-4.1"
