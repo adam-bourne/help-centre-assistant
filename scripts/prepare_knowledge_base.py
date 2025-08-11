@@ -1,3 +1,9 @@
+from pathlib import Path
+import time
+import json
+import os
+import sys
+
 from bs4 import BeautifulSoup
 from typing import List
 from selenium import webdriver
@@ -8,10 +14,15 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from pinecone_text.sparse import BM25Encoder
-from pathlib import Path
-import time
-import json
-import os
+import re
+import unicodedata
+import html
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from src.constants import TARGET_URLS
 
 # Get the absolute path to the project root directory
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -138,12 +149,26 @@ def process_page_content(page_source: str, url: str) -> List[str]:
             
     return chunks
 
+def normalize_for_indexing(text: str) -> str:
+    """
+    Normalizes text for the BM25 model by removing HTML entities,
+    normalizing Unicode characters, and replacing special characters.
+    """
+    text = html.unescape(text)
+    text = unicodedata.normalize('NFKC', text)
+    text = re.sub(r'[•●▪︎◦]', '-', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
 def create_sparse_vectors(chunks: List[str]) -> None:
     """
     Creates and saves BM25 sparse vectors from the provided chunks.
     """
     print("Initializing BM25 encoder...")
     sparse_model = BM25Encoder().default()
+
+    # Normalize the chunks for indexing
+    chunks = [normalize_for_indexing(chunk) for chunk in chunks]
     
     print("Fitting BM25 model on chunks...")
     sparse_model.fit(chunks)
@@ -155,11 +180,6 @@ def create_sparse_vectors(chunks: List[str]) -> None:
     print("BM25 values saved successfully!")
 
 def main():
-    # Define target URLs
-    target_urls = [
-        "https://help.typeform.com/hc/en-us/articles/23541138531732-Create-multi-language-forms",
-        "https://help.typeform.com/hc/en-us/articles/27703634781076-Add-a-Multi-Question-Page-to-your-form",
-    ]
 
     # Create data directory if it doesn't exist
     data_dir = os.path.join(PROJECT_ROOT, 'data')
@@ -167,7 +187,7 @@ def main():
 
     # Step 1: Generate chunks
     print("\n=== Step 1: Generating chunks ===")
-    chunks = chunk_web_page(target_urls)
+    chunks = chunk_web_page(TARGET_URLS)
     
     # Save chunks to file
     chunks_path = os.path.join(PROJECT_ROOT, 'data', 'chunks.json')

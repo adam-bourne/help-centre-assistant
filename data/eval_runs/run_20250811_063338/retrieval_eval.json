@@ -1,0 +1,4670 @@
+{
+  "summary": {
+    "pre_rerank": {
+      "hit@k": 0.8688524590163934,
+      "mrr@k": 0.6847222222222222,
+      "ndcg@k": 0.7304565968964392,
+      "precision@k": 0.08688524590163936,
+      "recall@k": 0.8688524590163934,
+      "k": 10,
+      "stage": "pre_rerank",
+      "n": 122,
+      "use_reranker": true,
+      "total_records": 172,
+      "filtered_unanswerable": 50,
+      "alpha": 0.5
+    },
+    "post_rerank": {
+      "hit@k": 0.8114754098360656,
+      "mrr@k": 0.6734972677595629,
+      "ndcg@k": 0.7093041257904045,
+      "precision@k": 0.27049180327868855,
+      "recall@k": 0.8114754098360656,
+      "k": 3,
+      "stage": "post_rerank",
+      "n": 122,
+      "use_reranker": true,
+      "total_records": 172,
+      "filtered_unanswerable": 50,
+      "alpha": 0.5
+    }
+  },
+  "details": [
+    {
+      "id": "eab4bf18-bad6-4fba-94e1-00447297caa1",
+      "question": "Which subscription plans are required to create multi-language forms?",
+      "pre_rerank": {
+        "topk_ids": [
+          "0",
+          "10",
+          "83",
+          "11",
+          "4",
+          "8",
+          "1",
+          "9",
+          "2",
+          "178"
+        ],
+        "gold": [
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "0",
+          "4",
+          "10"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "24691d4f-ee17-4344-8a1a-46724b79e6b0",
+      "question": "How can you add multiple languages to your form and translate it using AI?",
+      "pre_rerank": {
+        "topk_ids": [
+          "1",
+          "0",
+          "2",
+          "9",
+          "4",
+          "5",
+          "3",
+          "6",
+          "7",
+          "8"
+        ],
+        "gold": [
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "1",
+          "0",
+          "2"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "7b9e1793-ac2e-45c5-8051-57872c595ff0",
+      "question": "What are the steps to edit translations provided by AI for your multi-language form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "2",
+          "0",
+          "4",
+          "1",
+          "6",
+          "5",
+          "9",
+          "7",
+          "3",
+          "21"
+        ],
+        "gold": [
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "2",
+          "0",
+          "1"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "2ddc664a-09e8-4ab5-9a92-3bb3b384ce9b",
+      "question": "How can you add multiple languages to your form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "1",
+          "0",
+          "8",
+          "4",
+          "9",
+          "3",
+          "5",
+          "2",
+          "11",
+          "10"
+        ],
+        "gold": [
+          "1"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "1",
+          "0",
+          "3"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "61421a23-1116-49d5-88c6-69bf9497ac1b",
+      "question": "What are the steps to translate your form using AI after adding a new language?",
+      "pre_rerank": {
+        "topk_ids": [
+          "1",
+          "0",
+          "2",
+          "4",
+          "9",
+          "3",
+          "5",
+          "6",
+          "21",
+          "7"
+        ],
+        "gold": [
+          "1"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "1",
+          "0",
+          "2"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "dbf90bd4-465a-4fe4-aa92-6f00305e0aac",
+      "question": "When will respondents see the banner asking if they want to translate the form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "3",
+          "1",
+          "0",
+          "4",
+          "7",
+          "5",
+          "2",
+          "9",
+          "8",
+          "6"
+        ],
+        "gold": [
+          "1"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "3",
+          "0",
+          "1"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.3333333333333333,
+        "ndcg@k": 0.5,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "d0a3ed8f-521d-4294-bd81-9a4b83ec85cf",
+      "question": "What are the three columns present in the translation CSV file for multi-language forms?",
+      "pre_rerank": {
+        "topk_ids": [
+          "2",
+          "0",
+          "4",
+          "6",
+          "5",
+          "9",
+          "1",
+          "3",
+          "7",
+          "10"
+        ],
+        "gold": [
+          "2"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "0",
+          "2",
+          "4"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "7f2f6c96-bad8-49b1-ad1a-64472a44ca2c",
+      "question": "How do you edit AI-provided translations for a multi-language form in Typeform?",
+      "pre_rerank": {
+        "topk_ids": [
+          "4",
+          "6",
+          "2",
+          "0",
+          "1",
+          "5",
+          "10",
+          "3",
+          "7",
+          "9"
+        ],
+        "gold": [
+          "2"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.3333333333333333,
+        "ndcg@k": 0.5,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "2",
+          "0",
+          "4"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "b2b3c099-e8db-47df-a831-4cac8f62c5d7",
+      "question": "What happens if a respondent's browser language matches one of the languages chosen for translation?",
+      "pre_rerank": {
+        "topk_ids": [
+          "3",
+          "0",
+          "1",
+          "5",
+          "4",
+          "9",
+          "8",
+          "7",
+          "6",
+          "2"
+        ],
+        "gold": [
+          "3"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "3",
+          "0",
+          "1"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "76c4ca4b-3a0e-47d5-ba32-24cf2dd0b4ef",
+      "question": "How can you change the automatic translation settings for a multi-language form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "0",
+          "4",
+          "3",
+          "5",
+          "2",
+          "1",
+          "6",
+          "9",
+          "7",
+          "10"
+        ],
+        "gold": [
+          "3"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.3333333333333333,
+        "ndcg@k": 0.5,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "3",
+          "0",
+          "4"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "aea61bc9-6b39-48af-8863-3f291cabc842",
+      "question": "What will respondents see if automatic translation is turned off and their browser language matches a chosen translation language?",
+      "pre_rerank": {
+        "topk_ids": [
+          "3",
+          "0",
+          "1",
+          "5",
+          "4",
+          "7",
+          "8",
+          "9",
+          "2",
+          "6"
+        ],
+        "gold": [
+          "3"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "3",
+          "0",
+          "1"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "2b5eba11-9529-4164-b9eb-12faaa96e15a",
+      "question": "How can I view the translations provided for my multi-language form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "4",
+          "5",
+          "0",
+          "1",
+          "2",
+          "6",
+          "3",
+          "7",
+          "10",
+          "9"
+        ],
+        "gold": [
+          "4"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "5",
+          "4",
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "45816e60-2e8c-48d2-b1ea-626ac819c194",
+      "question": "What are the steps to edit translations for a multi-language form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "4",
+          "0",
+          "2",
+          "6",
+          "1",
+          "5",
+          "3",
+          "7",
+          "10",
+          "9"
+        ],
+        "gold": [
+          "4"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "0",
+          "1",
+          "2"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "5c08553e-8f5b-4391-90c7-5f127c4374a6",
+      "question": "What are the recommended limits for translating a form with a non-English main language using AI?",
+      "pre_rerank": {
+        "topk_ids": [
+          "9",
+          "4",
+          "0",
+          "1",
+          "2",
+          "7",
+          "6",
+          "5",
+          "3",
+          "8"
+        ],
+        "gold": [
+          "4"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "9",
+          "4",
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "dff44048-9bf2-4e00-9b7b-b4c047052d86",
+      "question": "How can I view the translations provided for my multi-language form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "4",
+          "5",
+          "0",
+          "1",
+          "2",
+          "6",
+          "3",
+          "7",
+          "10",
+          "9"
+        ],
+        "gold": [
+          "5"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "5",
+          "4",
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "7b969421-728d-4470-9513-002a1e0b710d",
+      "question": "What steps can I take to see my form in a different language?",
+      "pre_rerank": {
+        "topk_ids": [
+          "0",
+          "5",
+          "4",
+          "3",
+          "1",
+          "7",
+          "2",
+          "8",
+          "10",
+          "6"
+        ],
+        "gold": [
+          "5"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "5",
+          "1",
+          "4"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "4ec808ae-c8ac-4107-815c-75cf4e37f1f5",
+      "question": "Can I edit translations in Typeform?",
+      "pre_rerank": {
+        "topk_ids": [
+          "6",
+          "2",
+          "4",
+          "0",
+          "1",
+          "5",
+          "3",
+          "7",
+          "9",
+          "125"
+        ],
+        "gold": [
+          "6"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "6",
+          "2",
+          "4"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "9a6c27a2-c0b3-461c-9e39-49365fdd1b3c",
+      "question": "What are the steps to edit translations in Typeform?",
+      "pre_rerank": {
+        "topk_ids": [
+          "2",
+          "6",
+          "4",
+          "0",
+          "1",
+          "5",
+          "3",
+          "7",
+          "9",
+          "103"
+        ],
+        "gold": [
+          "6"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "2",
+          "6",
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "50714eed-8dbe-49e8-be04-1a5988509c65",
+      "question": "Will edited translations be included if I duplicate my form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "6",
+          "4",
+          "0",
+          "1",
+          "2",
+          "5",
+          "3",
+          "7",
+          "9",
+          "57"
+        ],
+        "gold": [
+          "6"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "6",
+          "4",
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "034acdf4-0f5a-48ff-b222-9d7a0b81eaff",
+      "question": "How long does it typically take for a form to be translated?",
+      "pre_rerank": {
+        "topk_ids": [
+          "7",
+          "4",
+          "0",
+          "9",
+          "1",
+          "5",
+          "6",
+          "2",
+          "3",
+          "86"
+        ],
+        "gold": [
+          "7"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "7",
+          "4",
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "0056dd12-f88e-44bf-913f-605c51e92ee2",
+      "question": "What should I do if my form is very long or has wordy questions and I want to translate it?",
+      "pre_rerank": {
+        "topk_ids": [
+          "7",
+          "4",
+          "0",
+          "9",
+          "2",
+          "1",
+          "3",
+          "6",
+          "5",
+          "12"
+        ],
+        "gold": [
+          "7"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "4",
+          "7",
+          "9"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "3866ac27-0517-4860-88c2-38784bec9bcf",
+      "question": "In what language are responses to close-ended question types displayed?",
+      "pre_rerank": {
+        "topk_ids": [
+          "8",
+          "0",
+          "4",
+          "181",
+          "185",
+          "3",
+          "177",
+          "9",
+          "11",
+          "169"
+        ],
+        "gold": [
+          "8"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "8",
+          "4",
+          "177"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "634a9441-4476-46fb-a5b5-46f90ae70537",
+      "question": "How are responses to open-ended question types displayed in terms of language?",
+      "pre_rerank": {
+        "topk_ids": [
+          "8",
+          "185",
+          "0",
+          "4",
+          "177",
+          "181",
+          "170",
+          "3",
+          "9",
+          "178"
+        ],
+        "gold": [
+          "8"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "8",
+          "4",
+          "177"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "1e838553-a5d8-4ea0-8c0f-b0901d0988a9",
+      "question": "What are the limitations when translating large forms with AI if the form's main language is set to English?",
+      "pre_rerank": {
+        "topk_ids": [
+          "9",
+          "4",
+          "0",
+          "7",
+          "3",
+          "1",
+          "2",
+          "5",
+          "6",
+          "178"
+        ],
+        "gold": [
+          "9"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "9",
+          "4",
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "ad7eda15-9ce1-4e67-8b6c-a14bf4128f51",
+      "question": "How can you translate a large form if you have exceeded the recommended limits for AI translation?",
+      "pre_rerank": {
+        "topk_ids": [
+          "9",
+          "4",
+          "0",
+          "7",
+          "2",
+          "1",
+          "6",
+          "5",
+          "3",
+          "146"
+        ],
+        "gold": [
+          "9"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "9",
+          "4",
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "833e082b-8929-4288-8780-cbaf1b62db51",
+      "question": "What are the recommended limits for forms set to a non-English language when using AI translation?",
+      "pre_rerank": {
+        "topk_ids": [
+          "9",
+          "4",
+          "0",
+          "1",
+          "2",
+          "7",
+          "5",
+          "3",
+          "6",
+          "178"
+        ],
+        "gold": [
+          "9"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "9",
+          "4",
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "3edd450d-f32a-4595-8bcb-a38583fd77d3",
+      "question": "Do multi-language forms work when embedded on a website?",
+      "pre_rerank": {
+        "topk_ids": [
+          "10",
+          "4",
+          "0",
+          "24",
+          "3",
+          "23",
+          "5",
+          "1",
+          "11",
+          "8"
+        ],
+        "gold": [
+          "10"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "10",
+          "4",
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "bdfceb09-cecf-4abf-9516-0f3f35f89ec8",
+      "question": "Will multi-language forms function if the form is embedded in an email?",
+      "pre_rerank": {
+        "topk_ids": [
+          "10",
+          "4",
+          "0",
+          "54",
+          "17",
+          "57",
+          "3",
+          "8",
+          "19",
+          "1"
+        ],
+        "gold": [
+          "10"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "10",
+          "4",
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "ee5f2412-1263-43bc-8617-b1243723a960",
+      "question": "What should you do to ensure your multi-language form works when embedding it?",
+      "pre_rerank": {
+        "topk_ids": [
+          "10",
+          "4",
+          "0",
+          "3",
+          "24",
+          "1",
+          "5",
+          "8",
+          "11",
+          "2"
+        ],
+        "gold": [
+          "10"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "10",
+          "4",
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "fe0c167c-57f4-4d77-8594-7fde4874d577",
+      "question": "What is the title of the page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "39",
+          "28",
+          "176",
+          "35",
+          "20",
+          "33",
+          "52",
+          "78",
+          "26",
+          "165"
+        ],
+        "gold": [
+          "11"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "39",
+          "26",
+          "78"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "b788c78c-203a-4c83-95ae-b6f0d46b4b2f",
+      "question": "How can users get more help if they have additional questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "47",
+          "169",
+          "46",
+          "44",
+          "20",
+          "48",
+          "36",
+          "33",
+          "185",
+          "49"
+        ],
+        "gold": [
+          "11"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "44"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "a54f9130-b6d7-4e5c-858a-2753aa37657d",
+      "question": "Which question types are supported on a Multi-Question Page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "12",
+          "15",
+          "14",
+          "19",
+          "16",
+          "18",
+          "17",
+          "117",
+          "119",
+          "181"
+        ],
+        "gold": [
+          "12"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "12",
+          "19",
+          "15"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "50b30782-e5da-46f6-847a-8a622583f6c8",
+      "question": "How do you add a Multi-Question Page to your form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "12",
+          "14",
+          "16",
+          "19",
+          "15",
+          "18",
+          "17",
+          "20",
+          "13",
+          "1"
+        ],
+        "gold": [
+          "12"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "14",
+          "12",
+          "15"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "54f70bca-788d-48d9-9d05-aa0f0e3e567a",
+      "question": "Can you add a Partial Submit Point after a Multi-Question Page, and can you add one after a specific question within the page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "16",
+          "15",
+          "12",
+          "14",
+          "19",
+          "18",
+          "17",
+          "20",
+          "94",
+          "120"
+        ],
+        "gold": [
+          "12"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.3333333333333333,
+        "ndcg@k": 0.5,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "16",
+          "15",
+          "12"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.3333333333333333,
+        "ndcg@k": 0.5,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "d4b8aac7-5bb0-4d67-8f1b-f8f55383aa45",
+      "question": "What types of questions are supported when adding a multi question page to your form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "12",
+          "15",
+          "19",
+          "14",
+          "16",
+          "13",
+          "20",
+          "117",
+          "18",
+          "17"
+        ],
+        "gold": [
+          "13"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.16666666666666666,
+        "ndcg@k": 0.3562071871080222,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "13",
+          "12",
+          "19"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "b21d7a22-4c71-451c-b452-eeb63a3ac981",
+      "question": "How can I find out which question types I can use on a multi question page in my form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "12",
+          "14",
+          "13",
+          "16",
+          "15",
+          "18",
+          "8",
+          "19",
+          "34",
+          "17"
+        ],
+        "gold": [
+          "13"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.3333333333333333,
+        "ndcg@k": 0.5,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "12",
+          "14",
+          "13"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.3333333333333333,
+        "ndcg@k": 0.5,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "2298c44f-41a7-42c2-bf8c-aeba33cddeec",
+      "question": "How do you add a Multi-Question Page to your form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "12",
+          "14",
+          "16",
+          "19",
+          "15",
+          "18",
+          "17",
+          "20",
+          "13",
+          "1"
+        ],
+        "gold": [
+          "14"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "14",
+          "12",
+          "15"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "fced1a7b-37c4-4c83-a479-41a37742ec10",
+      "question": "What happens to the question header of a Multi-Question Page in the downloaded results?",
+      "pre_rerank": {
+        "topk_ids": [
+          "14",
+          "12",
+          "17",
+          "160",
+          "15",
+          "16",
+          "19",
+          "159",
+          "18",
+          "161"
+        ],
+        "gold": [
+          "14"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "14",
+          "12",
+          "160"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "5d690a95-ac3b-44e2-b2a5-da1dc2c0a833",
+      "question": "What are the steps to add another question to a Multi-Question Page after creating it?",
+      "pre_rerank": {
+        "topk_ids": [
+          "14",
+          "12",
+          "19",
+          "15",
+          "16",
+          "18",
+          "17",
+          "30",
+          "47",
+          "20"
+        ],
+        "gold": [
+          "14"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "14",
+          "12",
+          "15"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "6e70dd2e-e424-4efc-9662-3f6f628c1d39",
+      "question": "Can you add a Partial Submit Point after a Multi-Question Page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "16",
+          "15",
+          "12",
+          "14",
+          "19",
+          "18",
+          "17",
+          "94",
+          "139",
+          "20"
+        ],
+        "gold": [
+          "15"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "16",
+          "15",
+          "12"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "55a33656-e149-4fb6-b3b8-c444530447dc",
+      "question": "How can you collect enrichment data using a Multi-Question Page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "17",
+          "15",
+          "54",
+          "53",
+          "12",
+          "60",
+          "14",
+          "57",
+          "66",
+          "18"
+        ],
+        "gold": [
+          "15"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "17",
+          "15",
+          "12"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "959ab3b0-64f6-4603-b118-9e67f0af31be",
+      "question": "What steps should you follow if you want to create an umbrella question with sub-questions on separate pages?",
+      "pre_rerank": {
+        "topk_ids": [
+          "19",
+          "15",
+          "12",
+          "14",
+          "30",
+          "37",
+          "29",
+          "36",
+          "47",
+          "18"
+        ],
+        "gold": [
+          "15"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "19",
+          "15",
+          "30"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "9fe0a612-1c3e-4142-94a0-9c33adc1a534",
+      "question": "Can you add a Partial Submit Point after a Multi-Question Page in your form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "16",
+          "15",
+          "12",
+          "14",
+          "19",
+          "18",
+          "17",
+          "94",
+          "20",
+          "139"
+        ],
+        "gold": [
+          "16"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "16",
+          "15",
+          "12"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "5be48208-d220-4318-90bf-74788078ac11",
+      "question": "How can you add a Partial Submit Point in relation to a Multi-Question Page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "16",
+          "15",
+          "12",
+          "14",
+          "19",
+          "18",
+          "17",
+          "94",
+          "20",
+          "139"
+        ],
+        "gold": [
+          "16"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "16",
+          "12",
+          "15"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "eef63e65-1fe4-4660-8d20-994bb6f8aa87",
+      "question": "Does the Multi-Question Page support Data Enrichment?",
+      "pre_rerank": {
+        "topk_ids": [
+          "15",
+          "17",
+          "12",
+          "54",
+          "19",
+          "14",
+          "53",
+          "18",
+          "68",
+          "65"
+        ],
+        "gold": [
+          "17"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "17",
+          "15",
+          "12"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "f250ef45-3ebc-4259-8ae5-200eb13964e9",
+      "question": "How can you collect enrichment data using a Multi-Question Page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "17",
+          "15",
+          "54",
+          "53",
+          "12",
+          "60",
+          "14",
+          "57",
+          "66",
+          "18"
+        ],
+        "gold": [
+          "17"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "17",
+          "15",
+          "12"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "00270df5-0a7c-4d3b-8017-c9854aa84e7c",
+      "question": "Can Logic be used with a Multi-Question Page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "18",
+          "15",
+          "12",
+          "14",
+          "19",
+          "16",
+          "17",
+          "36",
+          "37",
+          "40"
+        ],
+        "gold": [
+          "18"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "18",
+          "15",
+          "12"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "8ad2ae39-8745-4fa8-a84a-8cecabc09daa",
+      "question": "How can Logic interact with a Multi-Question Page in a form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "18",
+          "15",
+          "12",
+          "14",
+          "19",
+          "17",
+          "16",
+          "36",
+          "40",
+          "41"
+        ],
+        "gold": [
+          "18"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "12",
+          "18",
+          "15"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "15ab614e-9afb-4b28-bb78-a0f4db779ef5",
+      "question": "Can you add a score or create an outcome quiz with the Multi-Question Page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "15",
+          "19",
+          "12",
+          "29",
+          "30",
+          "34",
+          "16",
+          "14",
+          "18",
+          "31"
+        ],
+        "gold": [
+          "19"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "19",
+          "15",
+          "12"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "6b991240-0239-4457-9201-b8b1e5759d9d",
+      "question": "What should you use if you want to create an umbrella question with sub-questions on separate pages?",
+      "pre_rerank": {
+        "topk_ids": [
+          "19",
+          "15",
+          "12",
+          "37",
+          "36",
+          "47",
+          "29",
+          "14",
+          "18",
+          "46"
+        ],
+        "gold": [
+          "19"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "15",
+          "19",
+          "12"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "052010b2-9941-47cc-a4b1-272ce125351c",
+      "question": "Is it possible to embed a Multi-Question Page in an email as the first question of your form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "19",
+          "15",
+          "17",
+          "12",
+          "14",
+          "16",
+          "10",
+          "18",
+          "54",
+          "53"
+        ],
+        "gold": [
+          "19"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "15",
+          "19",
+          "17"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "b96b0ce8-7d2f-4c0c-9752-a8ad5353cb65",
+      "question": "What is the title of the page described in the chunk?",
+      "pre_rerank": {
+        "topk_ids": [
+          "39",
+          "28",
+          "176",
+          "165",
+          "35",
+          "33",
+          "68",
+          "52",
+          "78",
+          "45"
+        ],
+        "gold": [
+          "20"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "39",
+          "45",
+          "78"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "1aac736f-afcf-473a-8360-1836aaf63276",
+      "question": "How can users get more help if they have additional questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "47",
+          "169",
+          "46",
+          "44",
+          "20",
+          "48",
+          "36",
+          "33",
+          "185",
+          "49"
+        ],
+        "gold": [
+          "20"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.2,
+        "ndcg@k": 0.38685280723454163,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "44"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "2296e643-70f7-41c2-8480-e48f4105c045",
+      "question": "What is the first step to use AI to create a form in Typeform?",
+      "pre_rerank": {
+        "topk_ids": [
+          "21",
+          "22",
+          "2",
+          "102",
+          "103",
+          "93",
+          "107",
+          "0",
+          "106",
+          "1"
+        ],
+        "gold": [
+          "21"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "21",
+          "0",
+          "2"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "0704fd8c-f1ae-444f-9a1e-c39db9dc7e51",
+      "question": "How can you use AI to add questions to an existing form in Typeform?",
+      "pre_rerank": {
+        "topk_ids": [
+          "21",
+          "117",
+          "22",
+          "106",
+          "107",
+          "1",
+          "2",
+          "93",
+          "125",
+          "34"
+        ],
+        "gold": [
+          "21"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "21",
+          "2",
+          "34"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "6185a513-749e-42a5-865f-c0b4265e1fc4",
+      "question": "What tips are provided for giving instructions to the AI when creating a form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "21",
+          "22",
+          "1",
+          "0",
+          "2",
+          "186",
+          "183",
+          "38",
+          "93",
+          "47"
+        ],
+        "gold": [
+          "21"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "21",
+          "0",
+          "2"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "bd92e2ff-c047-4b70-bdf1-167b0dbc519c",
+      "question": "What is the title of the page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "39",
+          "28",
+          "176",
+          "35",
+          "20",
+          "33",
+          "52",
+          "78",
+          "26",
+          "165"
+        ],
+        "gold": [
+          "22"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "39",
+          "26",
+          "78"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "6e451f85-53de-4111-a54d-5b2edebf709b",
+      "question": "How can a user get more help if they have additional questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "47",
+          "169",
+          "46",
+          "44",
+          "48",
+          "20",
+          "36",
+          "33",
+          "49",
+          "185"
+        ],
+        "gold": [
+          "22"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "36"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "99f6dff6-aa3a-479b-99c8-9bc6310ef3ec",
+      "question": "How can you restrict access to your form so that only certain people can fill it out?",
+      "pre_rerank": {
+        "topk_ids": [
+          "23",
+          "25",
+          "24",
+          "26",
+          "71",
+          "80",
+          "77",
+          "46",
+          "74",
+          "79"
+        ],
+        "gold": [
+          "23"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "23",
+          "25",
+          "24"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "d0c8a8df-ce05-4f9a-be68-f962f769182a",
+      "question": "What are the steps to protect your form with an access code?",
+      "pre_rerank": {
+        "topk_ids": [
+          "25",
+          "23",
+          "24",
+          "26",
+          "71",
+          "75",
+          "74",
+          "73",
+          "102",
+          "77"
+        ],
+        "gold": [
+          "23"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "25",
+          "23",
+          "24"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "1212cea5-7c7d-4e6a-ab7a-d6253257c9a0",
+      "question": "Is protecting your form with an access code a secure method?",
+      "pre_rerank": {
+        "topk_ids": [
+          "25",
+          "23",
+          "24",
+          "26",
+          "71",
+          "77",
+          "75",
+          "185",
+          "74",
+          "73"
+        ],
+        "gold": [
+          "23"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "25",
+          "23",
+          "24"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "fd725c1a-711c-486f-9731-6fb398dfc173",
+      "question": "How can you restrict access to a form embedded on a website?",
+      "pre_rerank": {
+        "topk_ids": [
+          "23",
+          "24",
+          "25",
+          "10",
+          "26",
+          "71",
+          "72",
+          "4",
+          "75",
+          "119"
+        ],
+        "gold": [
+          "24"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "23",
+          "25",
+          "24"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.3333333333333333,
+        "ndcg@k": 0.5,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "80a5fcca-c80e-4eab-887a-0198b4863cb4",
+      "question": "What are the steps to hide your form so only logged-in users can access it?",
+      "pre_rerank": {
+        "topk_ids": [
+          "24",
+          "23",
+          "25",
+          "26",
+          "169",
+          "71",
+          "103",
+          "102",
+          "168",
+          "111"
+        ],
+        "gold": [
+          "24"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "23",
+          "24",
+          "25"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "2b0b5379-12ae-4f1a-a6b4-574afa5f4d3f",
+      "question": "What is a limitation of using an access code to protect your form as described in the documentation?",
+      "pre_rerank": {
+        "topk_ids": [
+          "25",
+          "23",
+          "26",
+          "24",
+          "71",
+          "75",
+          "104",
+          "9",
+          "74",
+          "154"
+        ],
+        "gold": [
+          "25"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "25",
+          "23",
+          "24"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "7eb068b4-b845-4124-bd1a-f00ae1271c5c",
+      "question": "What are the steps to protect a form with an access code according to the documentation?",
+      "pre_rerank": {
+        "topk_ids": [
+          "25",
+          "23",
+          "24",
+          "26",
+          "71",
+          "75",
+          "74",
+          "77",
+          "73",
+          "104"
+        ],
+        "gold": [
+          "25"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "25",
+          "23",
+          "24"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "10c6894c-53ea-4490-83fa-a2e5e923c419",
+      "question": "What is an example of an access code used to restrict access to a form in the documentation?",
+      "pre_rerank": {
+        "topk_ids": [
+          "25",
+          "23",
+          "24",
+          "26",
+          "154",
+          "71",
+          "1",
+          "104",
+          "107",
+          "0"
+        ],
+        "gold": [
+          "25"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "25",
+          "23",
+          "26"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "f529a08a-1f9e-447e-a84f-7273b5060a18",
+      "question": "What is the title of the page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "39",
+          "28",
+          "176",
+          "35",
+          "20",
+          "33",
+          "52",
+          "78",
+          "26",
+          "165"
+        ],
+        "gold": [
+          "26"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.1111111111111111,
+        "ndcg@k": 0.3010299956639812,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "39",
+          "26",
+          "78"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "5f235aee-d6bf-400f-b81a-6fd98afa4bec",
+      "question": "How can users get more help if they have questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "44",
+          "49",
+          "21",
+          "169",
+          "186",
+          "40",
+          "33",
+          "36",
+          "47",
+          "187"
+        ],
+        "gold": [
+          "26"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "21",
+          "40",
+          "44"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "8ed0bb6c-b3c3-41f8-a07d-1fe2c4e5e0e1",
+      "question": "What is a template in Typeform used for?",
+      "pre_rerank": {
+        "topk_ids": [
+          "27",
+          "28",
+          "2",
+          "31",
+          "6",
+          "0",
+          "36",
+          "93",
+          "1",
+          "90"
+        ],
+        "gold": [
+          "27"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "27",
+          "31",
+          "0"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "bff713a9-d21c-4ad9-8904-aa19a870a0ab",
+      "question": "How do you find and use a template in Typeform?",
+      "pre_rerank": {
+        "topk_ids": [
+          "27",
+          "28",
+          "2",
+          "90",
+          "100",
+          "98",
+          "31",
+          "6",
+          "34",
+          "107"
+        ],
+        "gold": [
+          "27"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "27",
+          "2",
+          "6"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "ef201e91-719a-4d3c-91cb-8e15ed40af7c",
+      "question": "How can you use only the design of a template in Typeform without its questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "27",
+          "28",
+          "90",
+          "29",
+          "31",
+          "36",
+          "30",
+          "93",
+          "21",
+          "9"
+        ],
+        "gold": [
+          "27"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "27",
+          "30",
+          "93"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "90f30851-14fe-40d2-b19e-ceb522f66ab3",
+      "question": "What is the title of the page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "39",
+          "28",
+          "176",
+          "35",
+          "20",
+          "33",
+          "52",
+          "78",
+          "26",
+          "165"
+        ],
+        "gold": [
+          "28"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "39",
+          "26",
+          "78"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "a733b516-1ed5-46a1-9457-f6dea45b4ba1",
+      "question": "How can users get more help if they have additional questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "47",
+          "169",
+          "46",
+          "44",
+          "20",
+          "48",
+          "36",
+          "33",
+          "185",
+          "49"
+        ],
+        "gold": [
+          "28"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "44"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "bf612d6f-385a-4a64-bcb3-b64d4209a480",
+      "question": "What is the purpose of using quizzes for teachers and businesses?",
+      "pre_rerank": {
+        "topk_ids": [
+          "29",
+          "34",
+          "31",
+          "32",
+          "33",
+          "37",
+          "36",
+          "21",
+          "30",
+          "38"
+        ],
+        "gold": [
+          "29"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "29",
+          "31",
+          "30"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "07bf72af-aa44-42ff-9edc-e6b84001a054",
+      "question": "How do you create a multiple choice logo quiz using Typeform?",
+      "pre_rerank": {
+        "topk_ids": [
+          "29",
+          "30",
+          "31",
+          "126",
+          "47",
+          "32",
+          "117",
+          "46",
+          "120",
+          "27"
+        ],
+        "gold": [
+          "29"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "29",
+          "30",
+          "31"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "e6469d03-3f27-45d5-a990-5576605f42b9",
+      "question": "What feature is used to organize a logo quiz into difficulty levels?",
+      "pre_rerank": {
+        "topk_ids": [
+          "30",
+          "29",
+          "31",
+          "32",
+          "34",
+          "40",
+          "33",
+          "19",
+          "15",
+          "27"
+        ],
+        "gold": [
+          "30"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "29",
+          "30",
+          "40"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "3079e724-70ff-46cd-84e6-4e002060f298",
+      "question": "How do you set up score-based progression between rounds in a logo quiz?",
+      "pre_rerank": {
+        "topk_ids": [
+          "30",
+          "29",
+          "34",
+          "32",
+          "31",
+          "15",
+          "19",
+          "33",
+          "47",
+          "41"
+        ],
+        "gold": [
+          "30"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "30",
+          "29",
+          "34"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "c8619b37-d442-4aed-84b1-784378467d3c",
+      "question": "What are the steps to add a logo image to a multiple choice question in the quiz?",
+      "pre_rerank": {
+        "topk_ids": [
+          "30",
+          "29",
+          "90",
+          "31",
+          "47",
+          "12",
+          "91",
+          "19",
+          "126",
+          "46"
+        ],
+        "gold": [
+          "30"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "29",
+          "30",
+          "90"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "d46e20dc-130c-4d68-9c13-c691443f2533",
+      "question": "What are two example quizzes mentioned in the documentation?",
+      "pre_rerank": {
+        "topk_ids": [
+          "31",
+          "29",
+          "34",
+          "32",
+          "37",
+          "30",
+          "36",
+          "21",
+          "117",
+          "33"
+        ],
+        "gold": [
+          "31"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "117",
+          "31",
+          "29"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "20aa2945-495f-4e46-8301-c63db3ea9071",
+      "question": "How can you get inspiration for creating a multiple choice quiz with Typeform?",
+      "pre_rerank": {
+        "topk_ids": [
+          "31",
+          "29",
+          "30",
+          "32",
+          "126",
+          "117",
+          "46",
+          "47",
+          "120",
+          "119"
+        ],
+        "gold": [
+          "31"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "29",
+          "31",
+          "30"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "0d2a1e50-a096-470b-8392-f58dd4294574",
+      "question": "What is the title of the page described in the chunk?",
+      "pre_rerank": {
+        "topk_ids": [
+          "39",
+          "28",
+          "176",
+          "165",
+          "35",
+          "33",
+          "68",
+          "52",
+          "78",
+          "45"
+        ],
+        "gold": [
+          "32"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "39",
+          "45",
+          "78"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "e6df0548-8b88-4552-98f6-af4e1c330ea4",
+      "question": "What should you do if you want to make a form or survey instead of a quiz?",
+      "pre_rerank": {
+        "topk_ids": [
+          "31",
+          "32",
+          "29",
+          "36",
+          "27",
+          "34",
+          "38",
+          "21",
+          "12",
+          "19"
+        ],
+        "gold": [
+          "32"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "32",
+          "31",
+          "36"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "b8acc12d-4ecd-4a48-8b42-e70e931bdaba",
+      "question": "What is the title of the page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "39",
+          "28",
+          "176",
+          "35",
+          "20",
+          "33",
+          "52",
+          "78",
+          "26",
+          "165"
+        ],
+        "gold": [
+          "33"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.16666666666666666,
+        "ndcg@k": 0.3562071871080222,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "39",
+          "26",
+          "78"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "b3445bb0-3891-42d5-9314-cd0626d9738f",
+      "question": "How can users get more help if they have additional questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "47",
+          "169",
+          "46",
+          "44",
+          "20",
+          "48",
+          "36",
+          "33",
+          "185",
+          "49"
+        ],
+        "gold": [
+          "33"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.125,
+        "ndcg@k": 0.31546487678572877,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "44"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "61658f2a-23ff-427f-98f7-e856f965d4f8",
+      "question": "Where can you find the different types of Logic tools in Typeform?",
+      "pre_rerank": {
+        "topk_ids": [
+          "34",
+          "40",
+          "41",
+          "46",
+          "36",
+          "90",
+          "35",
+          "106",
+          "21",
+          "91"
+        ],
+        "gold": [
+          "34"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "34",
+          "46",
+          "36"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "17941aa5-9641-4b08-8127-be10959c26e3",
+      "question": "How do you set up a product recommendation quiz in Typeform?",
+      "pre_rerank": {
+        "topk_ids": [
+          "34",
+          "29",
+          "31",
+          "32",
+          "30",
+          "27",
+          "21",
+          "117",
+          "126",
+          "19"
+        ],
+        "gold": [
+          "34"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "34",
+          "29",
+          "30"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "df7dfdc3-1172-464e-8058-bd62bd74f3b7",
+      "question": "What steps should you follow to use URL parameters in a Typeform?",
+      "pre_rerank": {
+        "topk_ids": [
+          "157",
+          "156",
+          "128",
+          "119",
+          "98",
+          "107",
+          "117",
+          "106",
+          "100",
+          "103"
+        ],
+        "gold": [
+          "34"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "98",
+          "117",
+          "107"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "ac639091-67ea-418f-9ebe-db4fd970abc0",
+      "question": "What is the title of the page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "39",
+          "28",
+          "176",
+          "35",
+          "20",
+          "33",
+          "52",
+          "78",
+          "26",
+          "165"
+        ],
+        "gold": [
+          "35"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.25,
+        "ndcg@k": 0.43067655807339306,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "39",
+          "26",
+          "78"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "cbc281a4-a958-4401-88d7-da3e9704310e",
+      "question": "How can I get more help if I have additional questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "48",
+          "169",
+          "21",
+          "20",
+          "49",
+          "186",
+          "44",
+          "36"
+        ],
+        "gold": [
+          "35"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "21",
+          "47",
+          "46"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "77b6cc22-fbc4-4978-9d3b-ffd22062f3e1",
+      "question": "What is Logic in the context of typeform?",
+      "pre_rerank": {
+        "topk_ids": [
+          "34",
+          "40",
+          "36",
+          "38",
+          "46",
+          "42",
+          "41",
+          "50",
+          "51",
+          "44"
+        ],
+        "gold": [
+          "36"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.3333333333333333,
+        "ndcg@k": 0.5,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "36",
+          "34",
+          "46"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "c54e838f-2c29-466a-a329-586c219eeba5",
+      "question": "How do you add Logic to a typeform to show different questions to cat lovers and dog lovers?",
+      "pre_rerank": {
+        "topk_ids": [
+          "36",
+          "37",
+          "51",
+          "50",
+          "44",
+          "34",
+          "40",
+          "46",
+          "41",
+          "47"
+        ],
+        "gold": [
+          "36"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "36",
+          "37",
+          "51"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "4adc5d77-383e-49c9-a067-e7715f7c24a3",
+      "question": "What are some examples of when to use Logic in your forms?",
+      "pre_rerank": {
+        "topk_ids": [
+          "34",
+          "40",
+          "50",
+          "36",
+          "38",
+          "41",
+          "44",
+          "37",
+          "46",
+          "51"
+        ],
+        "gold": [
+          "36"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.25,
+        "ndcg@k": 0.43067655807339306,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "37",
+          "36",
+          "41"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "c8674d33-95fe-4960-9738-4f54abb90664",
+      "question": "What is one example of using Logic in a form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "34",
+          "36",
+          "37",
+          "40",
+          "50",
+          "46",
+          "41",
+          "38",
+          "44",
+          "29"
+        ],
+        "gold": [
+          "37"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.3333333333333333,
+        "ndcg@k": 0.5,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "36",
+          "37",
+          "41"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "7086bacc-a832-4cc6-bb93-8727d9c7e53a",
+      "question": "How do you add Logic to a Multiple Choice question to create different paths for respondents?",
+      "pre_rerank": {
+        "topk_ids": [
+          "37",
+          "36",
+          "47",
+          "40",
+          "51",
+          "46",
+          "12",
+          "50",
+          "41",
+          "29"
+        ],
+        "gold": [
+          "37"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "37",
+          "36",
+          "12"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "648c8ad3-37b0-4bb6-8b14-96886bea7230",
+      "question": "What should you do to ensure respondents skip irrelevant questions after completing their relevant Question Group?",
+      "pre_rerank": {
+        "topk_ids": [
+          "36",
+          "44",
+          "37",
+          "185",
+          "57",
+          "47",
+          "81",
+          "34",
+          "40",
+          "186"
+        ],
+        "gold": [
+          "37"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.3333333333333333,
+        "ndcg@k": 0.5,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "36",
+          "44",
+          "37"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.3333333333333333,
+        "ndcg@k": 0.5,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "9a992c29-95df-4324-a8a0-a8dde8c81d2c",
+      "question": "What is a recommended first step before building a complex form with Logic?",
+      "pre_rerank": {
+        "topk_ids": [
+          "38",
+          "34",
+          "36",
+          "21",
+          "40",
+          "46",
+          "42",
+          "50",
+          "37",
+          "51"
+        ],
+        "gold": [
+          "38"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "38",
+          "36",
+          "34"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "b6b6defd-1eed-4e90-9eb5-5c2df112bbc1",
+      "question": "How can you prepare to build a form using Logic?",
+      "pre_rerank": {
+        "topk_ids": [
+          "38",
+          "36",
+          "40",
+          "37",
+          "34",
+          "46",
+          "25",
+          "21",
+          "42",
+          "27"
+        ],
+        "gold": [
+          "38"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "36",
+          "38",
+          "37"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "5b261f4e-efc2-4945-86f6-7dc523103fa4",
+      "question": "What is the title of the page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "39",
+          "28",
+          "176",
+          "35",
+          "20",
+          "33",
+          "52",
+          "78",
+          "26",
+          "165"
+        ],
+        "gold": [
+          "39"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "39",
+          "26",
+          "78"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "fdd35c62-ef10-4fc7-9f5e-75d2987dd0a1",
+      "question": "How can a user get more help if they have additional questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "47",
+          "169",
+          "46",
+          "44",
+          "48",
+          "20",
+          "36",
+          "33",
+          "49",
+          "185"
+        ],
+        "gold": [
+          "39"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "36"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "465f6505-bb36-4454-9171-0f9848eec6b4",
+      "question": "What is the Logic Map feature used for in form design?",
+      "pre_rerank": {
+        "topk_ids": [
+          "40",
+          "38",
+          "42",
+          "41",
+          "43",
+          "36",
+          "34",
+          "54",
+          "37",
+          "107"
+        ],
+        "gold": [
+          "40"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "40",
+          "41",
+          "42"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "763d866f-7cc6-45a8-a60f-2986af08c654",
+      "question": "How do you open and use the Logic Map to rearrange questions in your form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "41",
+          "40",
+          "44",
+          "38",
+          "42",
+          "37",
+          "36",
+          "120",
+          "43",
+          "117"
+        ],
+        "gold": [
+          "40"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "41",
+          "40",
+          "36"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "be016334-d71a-46cb-b0d1-00c1ca191751",
+      "question": "What is the loading limit for the Logic Map in terms of Logic rules or questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "40",
+          "41",
+          "36",
+          "37",
+          "43",
+          "38",
+          "18",
+          "44",
+          "9",
+          "34"
+        ],
+        "gold": [
+          "41"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "41",
+          "40",
+          "36"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "5fd2a52b-5796-48cd-8004-d550448510e7",
+      "question": "How can you rearrange the flowchart in the Logic Map, and can you change the Logic path by moving questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "41",
+          "40",
+          "44",
+          "37",
+          "36",
+          "43",
+          "42",
+          "38",
+          "48",
+          "50"
+        ],
+        "gold": [
+          "41"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "40",
+          "41",
+          "36"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "cc867db7-f35b-4615-96a4-0ff5d74472df",
+      "question": "What steps should you follow to open the Logic Map of your form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "40",
+          "41",
+          "38",
+          "42",
+          "102",
+          "43",
+          "36",
+          "57",
+          "21",
+          "37"
+        ],
+        "gold": [
+          "41"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.5,
+        "ndcg@k": 0.6309297535714575,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "41",
+          "40",
+          "36"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "c407eb2a-95d4-4a44-b8af-4fc06769e961",
+      "question": "How can you identify errors in your Logic flow using the Logic Map?",
+      "pre_rerank": {
+        "topk_ids": [
+          "42",
+          "40",
+          "41",
+          "38",
+          "43",
+          "37",
+          "34",
+          "44",
+          "36",
+          "50"
+        ],
+        "gold": [
+          "42"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "42",
+          "40",
+          "41"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "e5620ab2-d77c-4dd8-abcb-9211505313f5",
+      "question": "What are the steps to fix a Logic error using the Logic Map?",
+      "pre_rerank": {
+        "topk_ids": [
+          "42",
+          "40",
+          "133",
+          "41",
+          "43",
+          "38",
+          "148",
+          "44",
+          "36",
+          "37"
+        ],
+        "gold": [
+          "42"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "42",
+          "40",
+          "36"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "f408f87f-315e-4d51-a78a-e222ce399247",
+      "question": "What is the title of the page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "39",
+          "28",
+          "176",
+          "35",
+          "20",
+          "33",
+          "52",
+          "78",
+          "26",
+          "165"
+        ],
+        "gold": [
+          "43"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "39",
+          "26",
+          "78"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "c96db0f4-69f1-4e2b-a024-4abd6633bb8e",
+      "question": "How can a user get more help if they have additional questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "47",
+          "169",
+          "46",
+          "44",
+          "48",
+          "20",
+          "36",
+          "33",
+          "49",
+          "185"
+        ],
+        "gold": [
+          "43"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "36"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "8432e955-64dd-46cc-83ea-53fad65a1725",
+      "question": "What happens if you try to use Logic to send respondents back to a question that was previously skipped?",
+      "pre_rerank": {
+        "topk_ids": [
+          "44",
+          "36",
+          "51",
+          "34",
+          "37",
+          "48",
+          "50",
+          "57",
+          "46",
+          "18"
+        ],
+        "gold": [
+          "44"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "44",
+          "36",
+          "50"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "6012ccfc-bfbc-4398-969c-751d5816205e",
+      "question": "How can you fix your form if logic causes a question to be skipped and you need respondents to answer it later?",
+      "pre_rerank": {
+        "topk_ids": [
+          "44",
+          "36",
+          "37",
+          "51",
+          "34",
+          "50",
+          "18",
+          "40",
+          "46",
+          "42"
+        ],
+        "gold": [
+          "44"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "44",
+          "36",
+          "51"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "44222fb8-133b-44a4-8be8-6c50aea9eb94",
+      "question": "What is the title of the page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "39",
+          "28",
+          "176",
+          "35",
+          "20",
+          "33",
+          "52",
+          "78",
+          "26",
+          "165"
+        ],
+        "gold": [
+          "45"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "39",
+          "26",
+          "78"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "10ad7f66-e304-44b1-9913-ffd117cb4a33",
+      "question": "How can a user get more help if they have additional questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "47",
+          "169",
+          "46",
+          "44",
+          "48",
+          "20",
+          "36",
+          "33",
+          "49",
+          "185"
+        ],
+        "gold": [
+          "45"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "36"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "beff0045-1a1a-40a4-aa68-b6a4684b9ec9",
+      "question": "What is the purpose of using Logic, variables, and scores in a Typeform pizza order form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "46",
+          "49",
+          "48",
+          "34",
+          "47",
+          "50",
+          "51",
+          "44",
+          "40",
+          "58"
+        ],
+        "gold": [
+          "46"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "46",
+          "34",
+          "48"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "1ed672d6-0398-4e87-8346-c472b63a31ae",
+      "question": "How do you create a pizza order form with logic and variables in Typeform?",
+      "pre_rerank": {
+        "topk_ids": [
+          "46",
+          "48",
+          "49",
+          "47",
+          "34",
+          "50",
+          "51",
+          "42",
+          "40",
+          "44"
+        ],
+        "gold": [
+          "46"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "46",
+          "48",
+          "47"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "47dcabb6-e820-46bb-a47e-c0f36da79579",
+      "question": "How do you add custom variables and logic to a Typeform pizza order form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "46",
+          "48",
+          "47",
+          "49",
+          "34",
+          "51",
+          "50",
+          "44",
+          "42",
+          "40"
+        ],
+        "gold": [
+          "46"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "46",
+          "48",
+          "47"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "3a458bdb-be00-4340-a885-f7594ad4aff3",
+      "question": "What type of question should you use to let people choose up to 3 pizza toppings?",
+      "pre_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "48",
+          "51",
+          "50",
+          "49",
+          "29",
+          "36",
+          "30",
+          "34"
+        ],
+        "gold": [
+          "47"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "48"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "d87c4629-763e-4750-95b8-c8c3ecae237b",
+      "question": "What are the steps to collect payment and show the final price in a pizza order form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "46",
+          "48",
+          "47",
+          "49",
+          "34",
+          "51",
+          "50",
+          "150",
+          "21",
+          "168"
+        ],
+        "gold": [
+          "47"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.3333333333333333,
+        "ndcg@k": 0.5,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "48"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "53f114be-8858-45e8-9ec4-347f709435cf",
+      "question": "How can you allow respondents to add multiple pizzas to their order easily?",
+      "pre_rerank": {
+        "topk_ids": [
+          "47",
+          "48",
+          "46",
+          "49",
+          "51",
+          "50",
+          "12",
+          "36",
+          "14",
+          "29"
+        ],
+        "gold": [
+          "47"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "48"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "1e0d6797-b29d-4e00-9f5b-9c8c26076491",
+      "question": "Where can you add a custom variable when setting up logic for a pizza order form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "48",
+          "46",
+          "47",
+          "49",
+          "34",
+          "50",
+          "51",
+          "44",
+          "40",
+          "42"
+        ],
+        "gold": [
+          "48"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "48",
+          "46",
+          "47"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "00a77aae-ea0f-4ba9-be6d-40a825812e42",
+      "question": "What are the steps to set up logic for adding toppings and drinks to a pizza order form?",
+      "pre_rerank": {
+        "topk_ids": [
+          "48",
+          "46",
+          "47",
+          "49",
+          "50",
+          "34",
+          "51",
+          "44",
+          "40",
+          "41"
+        ],
+        "gold": [
+          "48"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "48",
+          "46",
+          "47"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 1.0,
+        "ndcg@k": 1.0,
+        "precision@k": 0.3333333333333333,
+        "recall@k": 1.0
+      }
+    },
+    {
+      "id": "194ca541-eeec-41b0-89bc-f0d5a2dfb139",
+      "question": "What is the title of the page?",
+      "pre_rerank": {
+        "topk_ids": [
+          "39",
+          "28",
+          "176",
+          "35",
+          "20",
+          "33",
+          "52",
+          "78",
+          "26",
+          "165"
+        ],
+        "gold": [
+          "49"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "39",
+          "26",
+          "78"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    },
+    {
+      "id": "5b89bfac-5653-484e-b06d-ac5e63b03f12",
+      "question": "How can users get more help if they have additional questions?",
+      "pre_rerank": {
+        "topk_ids": [
+          "47",
+          "169",
+          "46",
+          "44",
+          "20",
+          "48",
+          "36",
+          "33",
+          "185",
+          "49"
+        ],
+        "gold": [
+          "49"
+        ],
+        "hit@k": 1.0,
+        "mrr@k": 0.1,
+        "ndcg@k": 0.2890648263178879,
+        "precision@k": 0.1,
+        "recall@k": 1.0
+      },
+      "post_rerank": {
+        "topk_ids": [
+          "47",
+          "46",
+          "44"
+        ],
+        "hit@k": 0.0,
+        "mrr@k": 0.0,
+        "ndcg@k": 0.0,
+        "precision@k": 0.0,
+        "recall@k": 0.0
+      }
+    }
+  ]
+}

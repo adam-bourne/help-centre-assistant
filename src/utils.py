@@ -1,7 +1,12 @@
 import os
+from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 
 from src.constants import LANGCHAIN_PROJECT
+
+
+# Load .env once for all scripts importing this module
+load_dotenv()
 
 # set up tracing on langsmith if using
 if os.getenv("LANGCHAIN_API_KEY"):
@@ -19,10 +24,10 @@ def get_openai_llm(model: str = "gpt-4.1", temperature: float = 0.0, **kwargs) -
 
     if cache_key not in _llm_cache:
         _llm_cache[cache_key] = ChatOpenAI(
-        model=model,
-        temperature=temperature,
-        api_key=os.environ["OPENAI_API_KEY"],
-        model_kwargs=kwargs
-    )
+            model=model,
+            temperature=temperature,
+            api_key=os.environ["OPENAI_API_KEY"],
+            model_kwargs=kwargs,
+        )
 
     return _llm_cache[cache_key]

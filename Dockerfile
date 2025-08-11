@@ -15,7 +15,7 @@ COPY app.py .
 COPY src/ src/
 COPY scripts/ scripts/
 COPY data/ data/
-COPY .env* .
+COPY .env .
 
 # Make the start script executable
 RUN chmod +x scripts/start.sh
