@@ -1,0 +1,621 @@
+{
+  "summary": {
+    "avg_correctness": 0.96,
+    "avg_faithfulness": 0.984,
+    "avg_relevance": 0.98,
+    "pass_rate": 0.9466666666666667,
+    "n": 75,
+    "by_type": {
+      "fact": {
+        "n": 54,
+        "pass_rate": 0.9629629629629629
+      },
+      "unanswerable": {
+        "n": 21,
+        "pass_rate": 0.9047619047619048
+      }
+    }
+  },
+  "details": [
+    {
+      "id": "eab4bf18-bad6-4fba-94e1-00447297caa1",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "24691d4f-ee17-4344-8a1a-46724b79e6b0",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "7b9e1793-ac2e-45c5-8051-57872c595ff0",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "9230147b-b91a-4a53-b2df-92e325063a00",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "2ddc664a-09e8-4ab5-9a92-3bb3b384ce9b",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "61421a23-1116-49d5-88c6-69bf9497ac1b",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "dbf90bd4-465a-4fe4-aa92-6f00305e0aac",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "58e0af1e-2602-4658-ba6d-e1fe2867b8ec",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "d0a3ed8f-521d-4294-bd81-9a4b83ec85cf",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "7f2f6c96-bad8-49b1-ad1a-64472a44ca2c",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "ec1dc43c-17ef-45dd-9acd-f7136f8592f0",
+      "type": "unanswerable",
+      "correctness": 0.9,
+      "faithfulness": 0.9,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "b2b3c099-e8db-47df-a831-4cac8f62c5d7",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "76c4ca4b-3a0e-47d5-ba32-24cf2dd0b4ef",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "aea61bc9-6b39-48af-8863-3f291cabc842",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "4a8f8c87-026d-47d6-a91d-43fed9e90c38",
+      "type": "unanswerable",
+      "correctness": 0.7,
+      "faithfulness": 0.5,
+      "relevance": 1.0,
+      "verdict": "fail"
+    },
+    {
+      "id": "2b5eba11-9529-4164-b9eb-12faaa96e15a",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "45816e60-2e8c-48d2-b1ea-626ac819c194",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "5c08553e-8f5b-4391-90c7-5f127c4374a6",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "abc3ca84-7fe4-4b09-bca9-9e9a590ffc92",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "dff44048-9bf2-4e00-9b7b-b4c047052d86",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "7b969421-728d-4470-9513-002a1e0b710d",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "ed889266-3af5-4798-911c-1ba1e9ce2339",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "4ec808ae-c8ac-4107-815c-75cf4e37f1f5",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "9a6c27a2-c0b3-461c-9e39-49365fdd1b3c",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "50714eed-8dbe-49e8-be04-1a5988509c65",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "40fecbf3-f09c-47a4-80bb-1a23ffa8a1e2",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "034acdf4-0f5a-48ff-b222-9d7a0b81eaff",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "0056dd12-f88e-44bf-913f-605c51e92ee2",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "e3137803-a9e4-4662-869b-2339e2ea2420",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "3866ac27-0517-4860-88c2-38784bec9bcf",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "634a9441-4476-46fb-a5b5-46f90ae70537",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "0ef310f2-7d97-4582-8335-837b74652699",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "1e838553-a5d8-4ea0-8c0f-b0901d0988a9",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "ad7eda15-9ce1-4e67-8b6c-a14bf4128f51",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "833e082b-8929-4288-8780-cbaf1b62db51",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "b25e91a0-6d35-4716-a510-88c0805efeff",
+      "type": "unanswerable",
+      "correctness": 0.9,
+      "faithfulness": 0.9,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "3edd450d-f32a-4595-8bcb-a38583fd77d3",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "bdfceb09-cecf-4abf-9516-0f3f35f89ec8",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "ee5f2412-1263-43bc-8617-b1243723a960",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "9c1d0cb0-649e-404a-8eb4-6e72139fcbee",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "fe0c167c-57f4-4d77-8594-7fde4874d577",
+      "type": "fact",
+      "correctness": 0.0,
+      "faithfulness": 1.0,
+      "relevance": 0.0,
+      "verdict": "fail"
+    },
+    {
+      "id": "b788c78c-203a-4c83-95ae-b6f0d46b4b2f",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "27431230-ddf9-4c6c-899b-cc5bbcf1f2a1",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "a54f9130-b6d7-4e5c-858a-2753aa37657d",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "50b30782-e5da-46f6-847a-8a622583f6c8",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "54f70bca-788d-48d9-9d05-aa0f0e3e567a",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "9d377e23-8461-465b-90ae-b2ae3ca9500a",
+      "type": "unanswerable",
+      "correctness": 0.5,
+      "faithfulness": 0.5,
+      "relevance": 1.0,
+      "verdict": "fail"
+    },
+    {
+      "id": "d4b8aac7-5bb0-4d67-8f1b-f8f55383aa45",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "b21d7a22-4c71-451c-b452-eeb63a3ac981",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "a60468ab-1e35-4430-b3af-87cf49b24dd0",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "2298c44f-41a7-42c2-bf8c-aeba33cddeec",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "fced1a7b-37c4-4c83-a479-41a37742ec10",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "5d690a95-ac3b-44e2-b2a5-da1dc2c0a833",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "ea0f8879-3729-4811-9c38-7b04757f98a7",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "6e70dd2e-e424-4efc-9662-3f6f628c1d39",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "55a33656-e149-4fb6-b3b8-c444530447dc",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "959ab3b0-64f6-4603-b118-9e67f0af31be",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "383566b0-4b47-4841-837a-f91a8cf10a44",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "9fe0a612-1c3e-4142-94a0-9c33adc1a534",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "5be48208-d220-4318-90bf-74788078ac11",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "4a2684ee-8c5b-4b9b-b5cf-c310d79cebce",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "eef63e65-1fe4-4660-8d20-994bb6f8aa87",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "f250ef45-3ebc-4259-8ae5-200eb13964e9",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "b05acd37-bb41-44e8-8948-8b643679f7cb",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "00270df5-0a7c-4d3b-8017-c9854aa84e7c",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "8ad2ae39-8745-4fa8-a84a-8cecabc09daa",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "ccb040a6-3510-4b67-823f-de3cc500fa13",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "15ab614e-9afb-4b28-bb78-a0f4db779ef5",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "6b991240-0239-4457-9201-b8b1e5759d9d",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "052010b2-9941-47cc-a4b1-272ce125351c",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "77a91d8f-a41c-4109-b9d3-4943462e6835",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "b96b0ce8-7d2f-4c0c-9752-a8ad5353cb65",
+      "type": "fact",
+      "correctness": 0.0,
+      "faithfulness": 1.0,
+      "relevance": 0.5,
+      "verdict": "fail"
+    },
+    {
+      "id": "1aac736f-afcf-473a-8360-1836aaf63276",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "51b89691-79d9-432d-9216-cef0f3ce8fc8",
+      "type": "unanswerable",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    },
+    {
+      "id": "2296e643-70f7-41c2-8480-e48f4105c045",
+      "type": "fact",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "relevance": 1.0,
+      "verdict": "pass"
+    }
+  ]
+}

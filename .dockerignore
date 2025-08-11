@@ -1,0 +1,10 @@
+# Prevent local-only secrets from being copied into images
+.env.local
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# VCS
+.git
+.gitignore
